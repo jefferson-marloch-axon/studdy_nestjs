@@ -1,0 +1,49 @@
+{
+	"compilerOptions": {
+		/* Modules */
+		"module": "commonjs",
+		/* Language and environment */
+		"target": "ES2021",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		/* Emit */
+		"outDir": "./dist",
+		"declaration": true,
+		"declarationMap": true, // <-
+		"declarationDir": "./dist/@types", // <-
+		"sourceMap": true,
+		"removeComments": true,
+		/* Modules */
+		"rootDirs": [ // <-
+			"./src",
+			"./test"
+		],
+		"baseUrl": "./",
+		/* Interop constraints */
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true, // <-
+		"forceConsistentCasingInFileNames": true,
+		/* Projects */
+		"incremental": true,
+		/* Type checking */
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noFallthroughCasesInSwitch": true,
+		"noEmitOnError": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+	}
+}
